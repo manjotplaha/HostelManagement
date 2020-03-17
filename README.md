@@ -1,2 +1,0 @@
-# HostelManagement
-Hostel Management System 
