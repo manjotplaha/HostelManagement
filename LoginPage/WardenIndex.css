@@ -1,11 +1,22 @@
 body{
     background:#ebebe0;
 }
-#room-details{
-    margin-top: 10rem;
+#room-details {
+    margin-top: 4rem;
     background: cornsilk;
     border-radius: 2em;
 }
+
+#Display{
+    margin-top: 3rem;
+    background: cornsilk;
+    border-radius: 2em;
+}
+
 button{
     align-items: center;
+}
+
+#Display{
+    background: cornsilk;
 }
