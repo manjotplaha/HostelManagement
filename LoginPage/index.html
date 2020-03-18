@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="loginpage.css">
 </head>
 <body>
-    <div class="container ">
+    <div class="container">
         <h1 id="heading">User Login</h1>
         <form class="col-6 m-auto">    
             <div class="row">
@@ -27,6 +27,17 @@
                     <i class="material-icons prefix">vpn_key</i>
                     <input id="icon_telephone" type="tel" class="validate">
                     <label for="icon_telephone">Password</label>
+                </div>
+            </div>
+
+            <label for="" class="mb-0">Select Your Role:</label>
+            <div class="row mt-0">
+                <div class="input-field col s12 mt-0">
+                    <select class="form-group btn btn-secondary validate has-error" name="roles">
+                        <option value="" selected>Student</option>
+                        <option value="">Teacher Faculty</option>
+                        <option value="">Hostel Faculty</option>
+                    </select>
                 </div>
             </div>
             <button type="button" class="btn btn-outline-dark m-auto ml-lg-auto">Sign In</button>

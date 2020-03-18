@@ -4986,7 +4986,6 @@ $jscomp.polyfill = function (e, r, p, m) {
       }
     }
   };
-
   /**
    * Disable mousedown event for 500ms during and after touch
    */
@@ -5076,7 +5075,6 @@ $jscomp.polyfill = function (e, r, p, m) {
 
     document.body.addEventListener('mousedown', showEffect, false);
   };
-
   /**
    * Attach Waves to an input element (or any element which doesn't
    * bubble mouseup/mousedown events).
