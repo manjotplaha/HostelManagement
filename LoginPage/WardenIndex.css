@@ -1,0 +1,11 @@
+body{
+    background:#ebebe0;
+}
+#room-details{
+    margin-top: 10rem;
+    background: cornsilk;
+    border-radius: 2em;
+}
+button{
+    align-items: center;
+}
