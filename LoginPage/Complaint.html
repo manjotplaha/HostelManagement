@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cdns/materialize/css/materialize.css">
+    <link rel="stylesheet" href="../cdns/bootstrap/css/bootstrap.css">
+    <script src="../cdns/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../cdns/materialize/js/materialize.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="loginpage.css"> -->
+    <link rel="stylesheet" href="WardenIndex.css">
+</head>
+<body>
+    
+    <nav class="blue">
+        <div class="container">
+            <a href="#" class="class-logo">HOSTEL PORTAL</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Complaint</a></li>
+                <li><a href="#">Log-Out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-links">
+        <li><div class="user-view">
+            <div class="class-logo">
+              <h1 class="display-4">HOSTEL PORTAL</h1>
+            </div>
+        </li>
+        <li><div class="divider"></div></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#">Home</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#">Account</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#">Complaint</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#">Log-Out</a></li>
+        <li><div class="divider"></div></li>
+    </ul>
+
+    <div class="container" id="complaint">
+        <h1 class="display-2 center-align">Complaint</h1>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">error_outline</i>
+                  <textarea id="textarea1 -input" class="materialize-textarea"></textarea>
+                  <label for="textarea1 -input">Show Your Concern</label>
+                </div>
+              </div>
+            </form>
+          </div>
+                
+    </div>
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+</body>
+</html>

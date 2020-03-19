@@ -1,7 +1,7 @@
 body{
     background:#ebebe0;
 }
-#room-details {
+#room-details{
     margin-top: 4rem;
     background: cornsilk;
     border-radius: 2em;
@@ -9,6 +9,12 @@ body{
 
 #Display{
     margin-top: 3rem;
+    background: cornsilk;
+    border-radius: 2em;
+}
+
+#complaint{
+    margin-top: 5rem;
     background: cornsilk;
     border-radius: 2em;
 }
