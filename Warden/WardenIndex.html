@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:400,500,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cdns/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css-js/css/Wardenindex.css">
+    <title>Room Details</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hostel Portal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item m-1">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item m-1">
+                <a class="nav-link" href="#">Account</a>
+                </li>
+                <li class="nav-item m-1">
+                <a class="nav-link" href="#">Complaint</a>
+                </li>
+                <li class="nav-item m-1">
+                <a class="nav-link" href="#">Log in</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container bg-light p-4 row1 mx-auto">
+        <form action="">
+            <h1 class="display-4 text-center">Room Details</h1>
+            <div class="row m-3">
+                <input type="text" class="form-control" id="room-number" placeholder="Enter Room Number" required>
+            </div>
+            <button type="button" id="submit" class="btn btn-outline-dark d-block m-auto">Submit</button>
+        </div>
+    </form>
+
+    <div class="container m-auto mt-3 table-responsive d-none details-table">
+        <table class="table table-sm">
+            <tbody>         
+                <tr>
+                  <th rowspan="4" scope="row">Student 1</th>
+                  <td>Name: <span class="bg-light">Arshdeep Singh</span></td>
+                </tr>
+                <tr>
+                  <td>University Roll No: <span class="bg-light">1706406</span></td>
+                </tr>
+                <tr>
+                    <td>Phone No : <span class="bg-light">99517423305</span></td>
+                </tr>
+                <tr>
+                    <td>Department :<span class="bg-light"> CSE </span></td>
+                </tr>
+                
+                <tr>
+                    <th rowspan="4" scope="row">Student 2</th>
+                    <td>Name: <span class="bg-light"> </span></td>
+                </tr>
+                <tr>
+                    <td>University Roll No.:<span class="bg-light"></span></td>
+                </tr>
+                <tr>
+                    <td>Phone No.: <span class="bg-light"></span></td>
+                </tr>
+                <tr>
+                    <td>Department:<span class="bg-light"></span></td>
+                </tr>
+
+                <tr>
+                    <th rowspan="4" scope="row">Student 3</th>
+                    <td>Name: <span class="bg-light"></span></td>
+                </tr>
+                <tr>
+                    <td>University Roll No.:<span class="bg-light"></span></td>
+                </tr>
+                <tr>
+                    <td>Phone No.: <span class="bg-light"></span></td>
+                </tr>
+                <tr>
+                    <td>Department:<span class="bg-light"></span></td>
+                </tr>
+            </tbody>         
+        </table>
+    </div>
+
+  
+
+  <!-- <div class="container">
+      <div class="row m-auto my-2">
+          <div class="col-12 d-flex flex-row-reverse">
+              <a class="waves-effect waves-light btn grey" href="#">File Complaint</a>
+              <a class="waves-effect waves-light btn grey mr-3" href="#">Home</a>
+          </div>
+      </div>
+  </div> -->
+    <script src="../cdns/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../cdns/bootstrap/js/bootstrap.js"></script>
+    <script src="css-js/js/wardenindex.js">
+    </script>
+</body>
+</html>
